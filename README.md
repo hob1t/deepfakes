@@ -30,4 +30,25 @@ Run the GAN training script:
 python3 vanilla_gan.py 
 ```
 
+### Chapter 9 StyleGANs
+
+```bash  
+# 1. Clone NVIDIA's official StyleGAN2-ADA repository
+git clone https://github.com/NVlabs/stylegan2-ada-pytorch.git
+cd stylegan2-ada-pytorch
+```
+
+Create venv
+
+```bash
+python3 -m venv part_9
+source part_9/bin/activate
+pip install ninja click requests tqdm pyspng torchvision imageio-ffmpeg==0.4.3
+```
+
+Run
+
+```bash
+python face_swap.py --target target_person.jpg --source source_face.jpg --out final_swap.jpg
+```
 
