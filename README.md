@@ -52,3 +52,16 @@ Run
 python face_swap.py --target target_person.jpg --source source_face.jpg --out final_swap.jpg
 ```
 
+### Diffusion Models – The New Standard
+
+```bash
+python3 -m venv part_10_venv
+source part_10_venv/bin/activate
+```
+
+Run
+
+```bash
+python3 diffusion_mac.py
+```
+
